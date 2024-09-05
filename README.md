@@ -5,7 +5,6 @@
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#00ff7f',
-      'lineColor': '#190681',
     }
   }
 }%%

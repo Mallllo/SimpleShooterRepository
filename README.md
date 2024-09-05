@@ -16,6 +16,15 @@ graph TD;
     AActor-->AProjectile;
 ```
 ```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#e34234',
+      'lineColor':'#e34234'
+    }
+  }
+}%%
 graph TD;
     AActor-->ACollectable;
     ACollectable-->ACollectableAmmo;

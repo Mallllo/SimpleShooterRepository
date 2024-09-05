@@ -29,3 +29,17 @@ graph TD;
     AActor-->ACollectable;
     ACollectable-->ACollectableAmmo;
 ```
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#007fff',
+      'lineColor':'#007fff'
+    }
+  }
+}%%
+graph TD;
+    AGameModeBase-->ASimpleShooterGameModeBase;
+    ASimpleShooterGameModeBase-->AKillEmAllGameModeBase;
+```

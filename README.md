@@ -5,9 +5,9 @@ graph TD;
     AGun-->ARifle;
     AGun-->ALauncher;
     AActor-->AProjectile;
+```
+```mermaid
 graph TD;
-    AActor-->AGun;
-    AGun-->ARifle;
-    AGun-->ALauncher;
-    AActor-->AProjectile;
+    AActor-->ACollectable;
+    ACollectable-->ACollectableAmmo;
 ```

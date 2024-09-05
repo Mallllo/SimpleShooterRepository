@@ -43,3 +43,20 @@ graph TD;
     AGameModeBase-->ASimpleShooterGameModeBase;
     ASimpleShooterGameModeBase-->AKillEmAllGameModeBase;
 ```
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#18dffc',
+      'lineColor':'#18dffc'
+    }
+  }
+}%%
+graph TD;
+    UBTTaskNode-->UBTTask_Shoot;
+    UBTTask_BlackboardBase-->UBTTask_ClearBlackboardValue;
+    UBTService_BlackboardBase-->UBTService_PlayerLocation;
+    UBTService_BlackboardBase-->UBTService_PlayerLocationIfSeen;
+    UBTService_BlackboardBase-->UBTService_LastKnownLocation;
+```

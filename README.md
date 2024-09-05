@@ -4,6 +4,21 @@
   init: {
     'theme': 'base',
     'themeVariables': {
+      'primaryColor': '#ffd700',
+      'lineColor':'#ffd700'
+    }
+  }
+}%%
+graph TD;
+    ACharacter-->AShooterCharacter;
+    APlayerController-->AShooterPlayerController;
+    AAIController-->AShooterAIController;
+```
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
       'primaryColor': '#00ff7f',
       'lineColor':'#00ff7f'
     }

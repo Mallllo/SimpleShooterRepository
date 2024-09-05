@@ -4,7 +4,7 @@
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#00ff7f',
+      'primaryColor': '#00ff7f'
     }
   }
 }%%
